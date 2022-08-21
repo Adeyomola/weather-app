@@ -74,7 +74,8 @@ let Days = [
 ];
 
 fetch(
-  "https://api.openweathermap.org/data/2.5/forecast?lat=6.4550575&lon=3.3941795&appid=bd2f3bc95650a4232c123d98f3e5963a"
+  "https://api.openweathermap.org/data/2.5/forecast?lat=6.4550575&lon=3.3941795&appid=" +
+    token
 )
   .then((res) => {
     return res.json();
